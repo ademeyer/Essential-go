@@ -48,10 +48,6 @@ func fib(num int) int {
   var helper func(n int)int
 
 	helper = func(n int)int {
-    if n == 0 {
-      return 0
-    }
-
 		if n <= 1 {
 			return n
 		}
